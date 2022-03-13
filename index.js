@@ -3,6 +3,7 @@ const app = express();
 require("dotenv").config();
 const { PORT } = process.env;
 const videos = require("./routes/videos");
+const cors = require("cors");
 
 /*
  * Middleware

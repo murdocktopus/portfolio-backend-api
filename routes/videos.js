@@ -17,7 +17,7 @@ router.get("/", (req, res) => {
 /*
  * Get single video by id
  */
-router.get("/:id", (req, res) => {
+router.get("/video/:id", (req, res) => {
   fs.readFile("./data/videos.json", "utf8", (err, data) => {
     const videosData = JSON.parse(data);
     const foundVideo = videosData.find((video) => video.id === req.params.id);
