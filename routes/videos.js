@@ -42,13 +42,12 @@ router.post("/", (req, res) => {
       id: uuidv4(), // creating unique id
       title: req.body.title,
       channel: "Anonymous",
-      image:
-        "https://cdn.vox-cdn.com/thumbor/ywwImRtZDaNCI6Hnwl6Bo5Z7j6I=/0x0:1920x1080/1200x800/filters:focal(807x387:1113x693)/cdn.vox-cdn.com/uploads/chorus_image/image/63718716/spongebob_characters_wallpaper_thumb_1920_637740.0.jpg",
-      description: req.body.description, // incoming req.body?
+      image: "/images/sponge.jpg",
+      description: req.body.description, // incoming req.body
       views: "0",
       likes: "0",
       duration: "4:20",
-      video: "https://project-2-api.herokuapp.com/stream",
+      video: "/images/wow.mp4",
       timestamp: Date.now(),
       comments: [],
     };
