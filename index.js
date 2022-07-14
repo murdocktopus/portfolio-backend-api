@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 require("dotenv").config();
 const { PORT } = process.env;
-const videos = require("./routes/videos");
+const blogPosts = require("./routes/blog-posts");
 const cors = require("cors");
 
 /*
@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
   res.send("Welcome to my Brainflix Video API");
 });
 
-app.use("/videos", videos);
+app.use("/blog-posts", blogPosts);
 
 app.listen(PORT, () => {
   console.log(`Hello! My server is listening on ${PORT}`);
