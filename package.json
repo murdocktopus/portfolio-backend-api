@@ -1,7 +1,7 @@
 {
-  "name": "james-murdock-database-api",
+  "name": "james-murdock-brainflix-api",
   "version": "1.0.0",
-  "description": "JMDb Server",
+  "description": "Brainflix Server",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,9 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "JMDb",
-    "James Murdock",
-    "Portfolio"
+    "brainflix",
+    "server"
   ],
   "author": "James Murdock",
   "license": "ISC",

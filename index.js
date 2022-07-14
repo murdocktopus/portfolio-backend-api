@@ -2,8 +2,7 @@ const express = require("express");
 const app = express();
 require("dotenv").config();
 const { PORT } = process.env;
-const blogPosts = require("./routes/blog-posts");
-const foundBlogPost = require("./routes/blog-posts");
+const videos = require("./routes/videos");
 const cors = require("cors");
 
 /*
@@ -18,29 +17,10 @@ app.use(cors()); // allow cross origin resource sharing
  */
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the JMDb API");
+  res.send("Welcome to my Brainflix Video API");
 });
 
-// app.get("/blog-posts", (req, res) => {
-//   res.json(blogPosts);
-// });
-
-// app.get("/blog-post/:id", (req, res) => {
-//   // Reading isbn from the URL
-//   const id = req.params.id;
-
-//   for (let blogPost of posts) {
-//     if (blogPost.id === id) {
-//       res.json(blogPost);
-//       return;
-//     }
-//   }
-
-//   // Sending 404 when not found something is a good practice
-//   res.status(404).send("Book not found");
-// });
-
-app.use("/blog-posts", blogPosts);
+app.use("/videos", videos);
 
 app.listen(PORT, () => {
   console.log(`Hello! My server is listening on ${PORT}`);
