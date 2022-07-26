@@ -10,19 +10,20 @@ router.get("/", (req, res) => {
   fs.readFile("./data/blog-posts.json", "utf8", (err, data) => {
     const blogPostsData = JSON.parse(data);
     res.json(blogPostsData);
-    res.send(data); // doesn't set header but will return json
+    // res.send(data); // doesn't set header but will return json
   });
 });
 
 /*
  * Get single blog-post by id
  */
-router.get("/blog-post/:id", (req, res) => {
+router.get("/:id", (req, res) => {
   fs.readFile("./data/blog-posts.json", "utf8", (err, data) => {
     const blogPostsData = JSON.parse(data);
     const foundBlogPost = blogPostsData.find(
       (element) => element.id === req.params.id
     );
+    console.log(foundBlogPost);
     if (foundBlogPost) {
       res.json(foundBlogPost);
     } else {

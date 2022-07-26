@@ -17,7 +17,7 @@ app.use(cors()); // allow cross origin resource sharing
  */
 
 app.get("/", (req, res) => {
-  res.send("Welcome to my Brainflix Video API");
+  res.send("Welcome to the JMDb Blog API");
 });
 
 app.use("/blog-posts", blogPosts);
