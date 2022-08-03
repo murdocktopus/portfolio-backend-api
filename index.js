@@ -1,26 +1,27 @@
-const express = require("express");
+const express = require('express');
 const app = express();
-require("dotenv").config();
+require('dotenv').config();
 const { PORT } = process.env;
-const blogPosts = require("./routes/blog-posts");
-const cors = require("cors");
+const blogPosts = require('./routes/blog-posts');
+const cors = require('cors');
 
 /*
  * Middleware
  */
 app.use(express.json()); // adds req.body
-app.use(express.static("public")); // adds public folder for serving images
+app.use(express.static('public')); // adds public folder for serving images
 app.use(cors()); // allow cross origin resource sharing
 
 /*
  * Underware
  */
 
-app.get("/", (req, res) => {
-  res.send("Welcome to the JMDb Blog API");
+app.get('/', (req, res) => {
+  res.send('Welcome to the JMDb Blog API');
 });
 
-app.use("/blog-posts", blogPosts);
+app.use('/blog-posts', blogPosts);
+app.use('/blog-post', blogPosts);
 
 app.listen(PORT, () => {
   console.log(`Hello! My server is listening on ${PORT}`);
