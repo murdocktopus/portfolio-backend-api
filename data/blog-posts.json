@@ -1,6 +1,6 @@
 [
   {
-    "id": "5",
+    "id": "1",
     "name": "scrollmate",
     "selfLink": "www.JMDb.me/blog-post/scrollmate",
     "title": "scrollmate: BrainStation Capstone Project",
@@ -12,8 +12,9 @@
     "publishedDate": "2022-XX-XX",
     "updateDate": null,
     "adCopy": "scrollmate: A Web App by James Murdock",
-    "categoryTags": ["Books", "Apps", "Ideas", "Websites"],
-    "skillTags": [
+    "tags": ["Books", "Apps", "Ideas", "Websites"],
+    "skillTags": ["Development", "Web Development", "Design", "UX Design"],
+    "stackTags": [
       "HTML",
       "CSS",
       "json",
@@ -23,13 +24,16 @@
       "git",
       "Node",
       "React",
-      "Development",
-      "Design"
+      "Figma"
     ],
     "pageAndLink": [
       {
         "page": "Portfolio",
         "link": "www.JMDb.me/portfolio"
+      },
+      {
+        "page": "Books",
+        "link": "www.JMDb.me/books"
       }
     ],
     "content": [
@@ -46,30 +50,174 @@
     ]
   },
   {
-    "id": "6",
+    "id": "2",
     "name": "hockey-superstars",
     "selfLink": "www.JMDb.me/blog-post/hockey-superstars",
     "title": "Hockey Superstars: The (Drinking) Card Game",
     "subtitle": "It's a puck-in good time!",
-    "imgHero": "https://jmdb-api.herokuapp.com/images/scrollmate-hero.jpg",
-    "imgPoster": "https://jmdb-api.herokuapp.com/images/scrollmate-poster.jpg",
+    "imgHero": "https://jmdb-api.herokuapp.com/images/forrest-gump-hero.jpg",
+    "imgPoster": "https://jmdb-api.herokuapp.com/images/forrest-gump-poster.jpg",
     "icon": "FiAward",
     "writtenDate": "2022-08-XX",
     "publishedDate": "2022-XX-XX",
     "updateDate": null,
     "adCopy": "Hockey Superstars: Card Game Designed by James Murdock",
-    "categoryTags": ["Games", "Card Games", "Ideas", "Websites"],
+    "tags": ["Games", "Card Games", "Ideas", "Sports", "Hockey"],
+    "skillTags": ["Design", "Graphic Design", "Game Design"],
+    "stackTags": ["Affinity Designer"],
+    "pageAndLink": [
+      {
+        "page": "Portfolio",
+        "link": "www.JMDb.me/portfolio"
+      },
+      {
+        "page": "Sports",
+        "link": "www.JMDb.me/portfolio"
+      }
+    ],
+    "content": ["<p className='paragraph'>James</p>"]
+  },
+  {
+    "id": "3",
+    "name": "the-sold-soul-of-edward-teach",
+    "selfLink": "www.JMDb.me/blog-post/the-sold-soul-of-edward-teach",
+    "title": "The Sold Soul of Edward Teach: My Novel So Far.",
+    "subtitle": "My Stab at Historical Fiction in the 1700s",
+    "imgHero": "https://jmdb-api.herokuapp.com/images/forrest-gump-hero.jpg",
+    "imgPoster": "https://jmdb-api.herokuapp.com/images/forrest-gump-poster.jpg",
+    "icon": "FiAward",
+    "writtenDate": "2022-08-XX",
+    "publishedDate": "2022-XX-XX",
+    "updateDate": null,
+    "adCopy": "The Sold Soul of Edward Teach: written by James Murdock",
+    "tags": ["Books", "Stories", "Ideas", "History", "Fiction"],
     "skillTags": [
-      "Graphic Design",
-      "Adobe Illustrator",
-      "Affinity Designer",
-      "Design",
-      "Game Design"
+      "Creative Writing",
+      "Storytelling",
+      "Researching",
+      "Historical Research",
+      "Geographical Research",
+      "Content Creation"
+    ],
+    "stackTags": ["Microsoft Office", "Microsoft Word"],
+    "pageAndLink": [
+      {
+        "page": "Portfolio",
+        "link": "www.JMDb.me/portfolio"
+      },
+      {
+        "page": "Books",
+        "link": "www.JMDb.me/books"
+      }
+    ],
+    "content": ["<p className='paragraph'>James</p>"]
+  },
+  {
+    "id": "4",
+    "name": "cinememetix",
+    "selfLink": "www.JMDb.me/blog-post/cinememetix",
+    "title": "cinememetix on Instagram!",
+    "subtitle": "All original movie memes and reels",
+    "imgHero": "https://jmdb-api.herokuapp.com/images/forrest-gump-hero.jpg",
+    "imgPoster": "https://jmdb-api.herokuapp.com/images/forrest-gump-poster.jpg",
+    "icon": "FiAward",
+    "writtenDate": "2022-08-XX",
+    "publishedDate": "2022-XX-XX",
+    "updateDate": null,
+    "adCopy": "cinemetix on Instagram: All Original Movie Memes!",
+    "tags": ["Movies", "Instagram", "Memes", "Reels", "Fiction"],
+    "skillTags": [
+      "Content Creation",
+      "Image Editing",
+      "Video Editing",
+      "Social Media Marketing"
+    ],
+    "stackTags": [
+      "Adobe Photoshop",
+      "Gimp",
+      "Adobe Premiere Pro",
+      "Apple Final Cut Pro"
     ],
     "pageAndLink": [
       {
         "page": "Portfolio",
         "link": "www.JMDb.me/portfolio"
+      },
+      {
+        "page": "Movies",
+        "link": "www.JMDb.me/movies"
+      }
+    ],
+    "content": ["<p className='paragraph'>James</p>"]
+  },
+  {
+    "id": "5",
+    "name": "Geographic Design",
+    "selfLink": "www.JMDb.me/blog-post/geographic-design",
+    "title": "Geographic Design",
+    "subtitle": "My Freelance Graphic Design Endeavour",
+    "imgHero": "https://jmdb-api.herokuapp.com/images/forrest-gump-hero.jpg",
+    "imgPoster": "https://jmdb-api.herokuapp.com/images/forrest-gump-poster.jpg",
+    "icon": "FiAward",
+    "writtenDate": "2022-08-XX",
+    "publishedDate": "2022-XX-XX",
+    "updateDate": null,
+    "adCopy": "Geographic Design (Graphic Design) Co. by James Murdock",
+    "tags": ["Design", "Freelance", "Cartography", "Maps", "Fiction"],
+    "skillTags": [
+      "Design",
+      "Graphic Design",
+      "Image Editing",
+      "Illustration",
+      "Map Design",
+      "Researching",
+      "Geographical Research"
+    ],
+    "stackTags": ["Adobe Photoshop", "Adobe Illustrator"],
+    "pageAndLink": [
+      {
+        "page": "Portfolio",
+        "link": "www.JMDb.me/portfolio"
+      },
+      {
+        "page": "Movies",
+        "link": "www.JMDb.me/movies"
+      }
+    ],
+    "content": ["<p className='paragraph'>James</p>"]
+  },
+  {
+    "id": "6",
+    "name": "Cuba Travel Video",
+    "selfLink": "www.JMDb.me/blog-post/cuba-travel-video",
+    "title": "Vacation In Cuba: Travel Video",
+    "subtitle": "My experience with a GoPro in Cuba",
+    "imgHero": "https://jmdb-api.herokuapp.com/images/forrest-gump-hero.jpg",
+    "imgPoster": "https://jmdb-api.herokuapp.com/images/forrest-gump-poster.jpg",
+    "icon": "FiAward",
+    "writtenDate": "2022-08-XX",
+    "publishedDate": "2022-XX-XX",
+    "updateDate": null,
+    "adCopy": "Geographic Design (Graphic Design) Co. by James Murdock",
+    "tags": ["Travel", "Cuba", "GoPro", "Maps", "Fiction"],
+    "skillTags": [
+      "Design",
+      "Graphic Design",
+      "Image Editing",
+      "Illustration",
+      "Map Design",
+      "Researching",
+      "Geographical Research"
+    ],
+    "stackTags": ["Adobe Photoshop", "Adobe Illustrator"],
+    "pageAndLink": [
+      {
+        "page": "Portfolio",
+        "link": "www.JMDb.me/portfolio"
+      },
+      {
+        "page": "Movies",
+        "link": "www.JMDb.me/movies"
       }
     ],
     "content": ["<p className='paragraph'>James</p>"]
