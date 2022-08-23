@@ -3,15 +3,16 @@
     "id": "1",
     "name": "scrollmate",
     "selfLink": "www.JMDb.me/blog-post/scrollmate",
-    "title": "scrollmate: BrainStation Capstone Project",
-    "subtitle": "The Web App for discussing books!",
-    "imgHero": "https://jmdb-api.herokuapp.com/images/scrollmate-hero.jpg",
-    "imgPoster": "https://jmdb-api.herokuapp.com/images/scrollmate-poster.jpg",
+    "title": "Scrollmate",
+    "subtitle": ": BrainStation Capstone Project",
+    "tagline": "The Web App for discussing books!",
+    "imgHero": "/images/scrollmate-hero.png",
+    "imgPoster": "/images/scrollmate-poster.png",
     "icon": "FiAward",
     "writtenDate": "2022-08-02",
-    "publishedDate": "2022-XX-XX",
-    "updateDate": null,
-    "adCopy": "scrollmate: A Web App by James Murdock",
+    "publishedDate": "08/02/2022",
+    "updatedDate": null,
+    "adCopy": "Scrollmate: A Web App by James Murdock",
     "tags": ["Books", "Apps", "Ideas", "Websites"],
     "skillTags": ["Development", "Web Development", "Design", "UX Design"],
     "stackTags": [
@@ -28,50 +29,52 @@
     ],
     "pageAndLink": [
       {
-        "page": "Portfolio",
-        "link": "www.JMDb.me/portfolio"
-      },
-      {
         "page": "Books",
         "link": "www.JMDb.me/books"
+      },
+      {
+        "page": "Portfolio",
+        "link": "www.JMDb.me/portfolio"
       }
     ],
     "content": [
-      "<p className='paragraph'>scrollmate is an original web app that I developed for my web dev program's final project. In the diploma that I attended at BrainStation, I spent 3 months (working very hard, with not a lot of sleep), learning to code HTML, CSS, JavaScript, Git, Node, React, Sass, Express, MySQL, Document Object Model (DOM) APIs, Web APIs, User Authentication, OAuth, Heroku and Jest. We also learned a ton about the industry (and working and networking in it)! In the last 2 weeks at BrainStation, we spent a lot of our time applying the concepts we had learned throughout the program, in the highly anticipated Capstone Project work weeks.</p>",
-      "<p className='paragraph'>Our Capstone Project required a lot of individual conception, so we didn't have many complex deliverables like the other projects we'd completed up to that point. That meant it was more up to us to come up with our own criteria for the project, which was very exciting. Still, I knew that would also make it tough to nail down a manageable idea, thinking of all the possibilities we had been given by our instructors and the short amount of time we had to develop our idea.</p>",
-      "<p className='paragraph'>Here is my original video demo; made for the web app, as our last submission at BrainStation:</p>",
-      "<iframe className='media' src='https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6924426264690794498' height='718' width='504' frameborder='0' allowfullscreen='' title='Embedded post'></iframe>",
-      "<p className='paragraph'>I decided to start by thinking of some of the things that motivated me to get into development in the first place. Amongst many, is my love for philosophizing and, more specifically in this case, my love for persuasive writing and data. That lead me to check out the Google Books API, which gives programmatic access to many of the operations available on the Google Books website. Once I thought of using that data to create my own API, with additional user input data, I came up with the concept for scrollmate.</p>",
-      "<p className='paragraph'>My goal was to create an app that would pair with the functionality of a web app like Goodreads (and I hope to continue developing scrollmate to include that functionality unless I can sell out for the big bucks). Goodreads also uses the Google Books API to give users a hub for managing their data on almost all things: Books. The platform allows you to manage your data on the books and authors you've read; collect, follow, rate and review them; add friends and give recommendations, to help in determining your next read. But I say 'almost all things' because something that I believed was lacking, was the ability to use your data to create a convenient framework to actually discuss the books you're reading.</p>",
-      "<p className='paragraph'>I wanted my app to revolve around a simple function with a handy concept, which would let users take their current progress or page number in any book (that you can GET from Google) as a data point, and discuss it in a forum style, without the worry of spoilers from users who've progressed further in the book. Using the progress data in this way, allows the app to become a very precise, online book club, where you can discuss at any page, and 'unlock' advanced-position comments as you read further.</p>",
-      "<p className='paragraph'>Please check out the srollmate video demo, where I show exactly how scrollmate works. I hope it helps you see why I think an app like this would be a great idea for social and academic purposes. The app is not yet deployed but please come back for updates, as I'm hoping to deploy it soon to allow users to freely discuss whatever they're reading, on the backend that I've made for Scrollmate's own API. My next step is adding Oauth support before getting it deployed so that users can own and save their data, which is necessary for its desired convenience.</p>",
-      "<p className='paragraph'>The stack that has gone into making this app so far, includes the use of HTML, CSS, Sass, JavaScript, npm, git, Node.js, React.js, Express and Web APIs. With so much to do, I'm excited to get back to work on this. Please let me know if this is a project you'd be interested in me pursueing in the near future! Thank you for reading.</p>",
-      "<p className='paragraph'>James</p>"
+      "<p className='post-content__p post-content__p--first-letter' >Scrollmate is an original web app that I developed for my web dev program's final project. In the diploma that I attended at BrainStation, I spent 3 months (working very hard, with not a lot of sleep), learning to code HTML, CSS, JavaScript, Git, Node, React, Sass, Express, MySQL, Document Object Model (DOM) APIs, Web APIs, User Authentication, OAuth, Heroku and Jest. We also learned a ton about the industry (and working and networking in it)! In the last 2 weeks at BrainStation, we spent a lot of our time applying the concepts we had learned throughout the program, in the highly anticipated Capstone Project work weeks.</p>",
+      "<p className='post-content__p' >Our Capstone Project required a lot of individual conception, so we didn't have many complex deliverables like the other projects we'd completed up to that point. That meant it was more up to us to come up with our own criteria for the project, which was very exciting. Still, I knew that would also make it tough to nail down a manageable idea, thinking of all the possibilities we had been given by our instructors and the short amount of time we had to develop our idea.</p>",
+      "<p className='post-content__p' >Here is my original video demo; made for the web app, as our last submission at BrainStation:</p>",
+      "<div className='post-content__media-container' ><iframe className='post-content__media' src='https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6924426264690794498' width='100%' frameborder='1' allowfullscreen='' title='Embedded post' key='{Math.floor(Math.random() * 100000000)}' ></iframe></div>",
+      "<p className='post-content__p' >I decided to start by thinking of some of the things that motivated me to get into development in the first place. Amongst many, is my love for philosophizing and, more specifically in this case, my love for persuasive writing and data. That lead me to check out the Google Books API, which gives programmatic access to many of the operations available on the Google Books website. Once I thought of using that data to create my own API, with additional user input data, I came up with the concept for Scrollmate.</p>",
+      "<p className='post-content__p' >My goal was to create an app that would pair with the functionality of a web app like Goodreads (and I hope to continue developing scrollmate to include that functionality unless I can sell out for the big bucks). Goodreads also uses the Google Books API to give users a hub for managing their data on almost all things: Books. The platform allows you to manage your data on the books and authors you've read; collect, follow, rate and review them; add friends and give recommendations, to help in determining your next read. But I say 'almost all things' because something that I believed was lacking, was the ability to use your data to create a convenient framework to actually discuss the books you're reading.</p>",
+      "<p className='post-content__p' >I wanted my app to revolve around a simple function with a handy concept, which would let users take their current progress or page number in any book (that you can GET from Google) as a data point, and discuss it in a forum style, without the worry of spoilers from users who've progressed further in the book. Using the progress data in this way, allows the app to become a very precise, online book club, where you can discuss at any page, and 'unlock' advanced-position comments as you read further.</p>",
+      "<p className='post-content__p' >Please check out the Srollmate video demo, where I show exactly how scrollmate works. I hope it helps you see why I think an app like this would be a great idea for social and academic purposes. The app is not yet deployed but please come back for updates, as I'm hoping to deploy it soon to allow users to freely discuss whatever they're reading, on the backend that I've made for Scrollmate's own API. My next step is adding Oauth support before getting it deployed so that users can own and save their data, which is necessary for its desired convenience.</p>",
+      "<p className='post-content__p' >The stack that has gone into making this app so far, includes the use of HTML, CSS, Sass, JavaScript, npm, git, Node.js, React.js, Express and Web APIs. With so much to do, I'm excited to get back to work on this. Please let me know if this is a project you'd be interested in me pursuing in the near future!</p>",
+      "<p className='post-content__p' >Thank you for reading.</p>",
+      "<p className='post-content__p' >-James</p>"
     ]
   },
   {
     "id": "2",
     "name": "hockey-superstars",
     "selfLink": "www.JMDb.me/blog-post/hockey-superstars",
-    "title": "Hockey Superstars: The (Drinking) Card Game",
-    "subtitle": "It's a puck-in good time!",
-    "imgHero": "https://jmdb-api.herokuapp.com/images/forrest-gump-hero.jpg",
-    "imgPoster": "https://jmdb-api.herokuapp.com/images/forrest-gump-poster.jpg",
+    "title": "Hockey Superstars",
+    "subtitle": ": The (Drinking) Card Game",
+    "tagline": "It's a puck-in good time!",
+    "imgHero": "/images/forrest-gump-hero.jpg",
+    "imgPoster": "/images/forrest-gump-poster.jpg",
     "icon": "FiAward",
     "writtenDate": "2022-08-XX",
     "publishedDate": "2022-XX-XX",
-    "updateDate": null,
+    "updatedDate": null,
     "adCopy": "Hockey Superstars: Card Game Designed by James Murdock",
     "tags": ["Games", "Card Games", "Ideas", "Sports", "Hockey"],
     "skillTags": ["Design", "Graphic Design", "Game Design"],
     "stackTags": ["Affinity Designer"],
     "pageAndLink": [
       {
-        "page": "Portfolio",
+        "page": "Sports",
         "link": "www.JMDb.me/portfolio"
       },
       {
-        "page": "Sports",
+        "page": "Portfolio",
         "link": "www.JMDb.me/portfolio"
       }
     ],
@@ -81,14 +84,15 @@
     "id": "3",
     "name": "the-sold-soul-of-edward-teach",
     "selfLink": "www.JMDb.me/blog-post/the-sold-soul-of-edward-teach",
-    "title": "The Sold Soul of Edward Teach: My Novel So Far.",
-    "subtitle": "My Stab at Historical Fiction in the 1700s",
-    "imgHero": "https://jmdb-api.herokuapp.com/images/forrest-gump-hero.jpg",
-    "imgPoster": "https://jmdb-api.herokuapp.com/images/forrest-gump-poster.jpg",
+    "title": "The Sold Soul of Edward Teach",
+    "subtitle": ": My Novel So Far.",
+    "tagline": "My Stab at Historical Fiction in the 1700s",
+    "imgHero": "/images/forrest-gump-hero.jpg",
+    "imgPoster": "/images/forrest-gump-poster.jpg",
     "icon": "FiAward",
     "writtenDate": "2022-08-XX",
     "publishedDate": "2022-XX-XX",
-    "updateDate": null,
+    "updatedDate": null,
     "adCopy": "The Sold Soul of Edward Teach: written by James Murdock",
     "tags": ["Books", "Stories", "Ideas", "History", "Fiction"],
     "skillTags": [
@@ -102,12 +106,12 @@
     "stackTags": ["Microsoft Office", "Microsoft Word"],
     "pageAndLink": [
       {
-        "page": "Portfolio",
-        "link": "www.JMDb.me/portfolio"
-      },
-      {
         "page": "Books",
         "link": "www.JMDb.me/books"
+      },
+      {
+        "page": "Portfolio",
+        "link": "www.JMDb.me/portfolio"
       }
     ],
     "content": ["<p className='paragraph'>James</p>"]
@@ -116,15 +120,16 @@
     "id": "4",
     "name": "cinememetix",
     "selfLink": "www.JMDb.me/blog-post/cinememetix",
-    "title": "cinememetix on Instagram!",
-    "subtitle": "All original movie memes and reels",
-    "imgHero": "https://jmdb-api.herokuapp.com/images/forrest-gump-hero.jpg",
-    "imgPoster": "https://jmdb-api.herokuapp.com/images/forrest-gump-poster.jpg",
+    "title": "Cinememetix",
+    "subtitle": " on Instagram!",
+    "tagline": "All original movie memes and reels",
+    "imgHero": "/images/forrest-gump-hero.jpg",
+    "imgPoster": "/images/forrest-gump-poster.jpg",
     "icon": "FiAward",
     "writtenDate": "2022-08-XX",
     "publishedDate": "2022-XX-XX",
-    "updateDate": null,
-    "adCopy": "cinemetix on Instagram: All Original Movie Memes!",
+    "updatedDate": null,
+    "adCopy": "Cinemetix on Instagram: All Original Movie Memes!",
     "tags": ["Movies", "Instagram", "Memes", "Reels", "Fiction"],
     "skillTags": [
       "Content Creation",
@@ -140,12 +145,12 @@
     ],
     "pageAndLink": [
       {
-        "page": "Portfolio",
-        "link": "www.JMDb.me/portfolio"
-      },
-      {
         "page": "Movies",
         "link": "www.JMDb.me/movies"
+      },
+      {
+        "page": "Portfolio",
+        "link": "www.JMDb.me/portfolio"
       }
     ],
     "content": ["<p className='paragraph'>James</p>"]
@@ -155,13 +160,14 @@
     "name": "Geographic Design",
     "selfLink": "www.JMDb.me/blog-post/geographic-design",
     "title": "Geographic Design",
-    "subtitle": "My Freelance Graphic Design Endeavour",
-    "imgHero": "https://jmdb-api.herokuapp.com/images/forrest-gump-hero.jpg",
-    "imgPoster": "https://jmdb-api.herokuapp.com/images/forrest-gump-poster.jpg",
+    "subtitle": "",
+    "tagline": "My Freelance Graphic Design Endeavour",
+    "imgHero": "/images/forrest-gump-hero.jpg",
+    "imgPoster": "/images/forrest-gump-poster.jpg",
     "icon": "FiAward",
     "writtenDate": "2022-08-XX",
     "publishedDate": "2022-XX-XX",
-    "updateDate": null,
+    "updatedDate": null,
     "adCopy": "Geographic Design (Graphic Design) Co. by James Murdock",
     "tags": ["Design", "Freelance", "Cartography", "Maps", "Fiction"],
     "skillTags": [
@@ -176,12 +182,12 @@
     "stackTags": ["Adobe Photoshop", "Adobe Illustrator"],
     "pageAndLink": [
       {
-        "page": "Portfolio",
-        "link": "www.JMDb.me/portfolio"
-      },
-      {
         "page": "Movies",
         "link": "www.JMDb.me/movies"
+      },
+      {
+        "page": "Portfolio",
+        "link": "www.JMDb.me/portfolio"
       }
     ],
     "content": ["<p className='paragraph'>James</p>"]
@@ -190,14 +196,15 @@
     "id": "6",
     "name": "Cuba Travel Video",
     "selfLink": "www.JMDb.me/blog-post/cuba-travel-video",
-    "title": "Vacation In Cuba: Travel Video",
-    "subtitle": "My experience with a GoPro in Cuba",
-    "imgHero": "https://jmdb-api.herokuapp.com/images/forrest-gump-hero.jpg",
-    "imgPoster": "https://jmdb-api.herokuapp.com/images/forrest-gump-poster.jpg",
+    "title": "Cuban Vacation",
+    "subtitle": ": Travel Video",
+    "tagline": "My experience with a GoPro in Cuba",
+    "imgHero": "/images/forrest-gump-hero.jpg",
+    "imgPoster": "/images/forrest-gump-poster.jpg",
     "icon": "FiAward",
     "writtenDate": "2022-08-XX",
     "publishedDate": "2022-XX-XX",
-    "updateDate": null,
+    "updatedDate": null,
     "adCopy": "Geographic Design (Graphic Design) Co. by James Murdock",
     "tags": ["Travel", "Cuba", "GoPro", "Maps", "Fiction"],
     "skillTags": [
@@ -212,12 +219,12 @@
     "stackTags": ["Adobe Photoshop", "Adobe Illustrator"],
     "pageAndLink": [
       {
-        "page": "Portfolio",
-        "link": "www.JMDb.me/portfolio"
-      },
-      {
         "page": "Movies",
         "link": "www.JMDb.me/movies"
+      },
+      {
+        "page": "Portfolio",
+        "link": "www.JMDb.me/portfolio"
       }
     ],
     "content": ["<p className='paragraph'>James</p>"]
