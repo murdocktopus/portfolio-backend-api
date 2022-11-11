@@ -4,7 +4,7 @@
     "name": "scrollmate",
     "selfLink": "www.JMDb.me/blog-post/scrollmate",
     "title": "Scrollmate",
-    "subtitle": ": BrainStation Capstone Project",
+    "subtitle": "BrainStation Capstone Project",
     "tagline": "The Web App for discussing books!",
     "imgHero": "/images/scrollmate-hero.png",
     "imgPoster": "/images/scrollmate-poster.png",
@@ -26,6 +26,12 @@
       "Node",
       "React",
       "Figma"
+    ],
+    "playlists": [
+      {
+        "hero": false,
+        "featuredToday": true
+      }
     ],
     "pageAndLink": [
       {
@@ -56,7 +62,7 @@
     "name": "hockey-superstars",
     "selfLink": "www.JMDb.me/blog-post/hockey-superstars",
     "title": "Hockey Superstars",
-    "subtitle": ": The (Drinking) Card Game",
+    "subtitle": "The (Drinking) Card Game",
     "tagline": "It's a puck-in good time!",
     "imgHero": "/images/forrest-gump-hero.jpg",
     "imgPoster": "/images/forrest-gump-poster.jpg",
@@ -68,6 +74,12 @@
     "tags": ["Games", "Card Games", "Ideas", "Sports", "Hockey"],
     "skillTags": ["Design", "Graphic Design", "Game Design"],
     "stackTags": ["Affinity Designer"],
+    "playlists": [
+      {
+        "hero": false,
+        "featuredToday": true
+      }
+    ],
     "pageAndLink": [
       {
         "page": "Sports",
@@ -85,8 +97,8 @@
     "name": "the-sold-soul-of-edward-teach",
     "selfLink": "www.JMDb.me/blog-post/the-sold-soul-of-edward-teach",
     "title": "The Sold Soul of Edward Teach",
-    "subtitle": ": My Novel So Far.",
-    "tagline": "My Stab at Historical Fiction in the 1700s",
+    "subtitle": "My Stab at Historical Fiction in the 1700s",
+    "tagline": "Piracy & the Trans-Atlantic Slave Trade",
     "imgHero": "/images/forrest-gump-hero.jpg",
     "imgPoster": "/images/forrest-gump-poster.jpg",
     "icon": "FiAward",
@@ -104,6 +116,12 @@
       "Content Creation"
     ],
     "stackTags": ["Microsoft Office", "Microsoft Word"],
+    "playlists": [
+      {
+        "hero": false,
+        "featuredToday": true
+      }
+    ],
     "pageAndLink": [
       {
         "page": "Books",
@@ -143,6 +161,12 @@
       "Adobe Premiere Pro",
       "Apple Final Cut Pro"
     ],
+    "playlists": [
+      {
+        "hero": false,
+        "featuredToday": true
+      }
+    ],
     "pageAndLink": [
       {
         "page": "Movies",
@@ -180,6 +204,12 @@
       "Geographical Research"
     ],
     "stackTags": ["Adobe Photoshop", "Adobe Illustrator"],
+    "playlists": [
+      {
+        "hero": false,
+        "featuredToday": true
+      }
+    ],
     "pageAndLink": [
       {
         "page": "Movies",
@@ -197,7 +227,7 @@
     "name": "Cuba Travel Video",
     "selfLink": "www.JMDb.me/blog-post/cuba-travel-video",
     "title": "Cuban Vacation",
-    "subtitle": ": Travel Video",
+    "subtitle": "Travel Video",
     "tagline": "My experience with a GoPro in Cuba",
     "imgHero": "/images/forrest-gump-hero.jpg",
     "imgPoster": "/images/forrest-gump-poster.jpg",
@@ -217,6 +247,12 @@
       "Geographical Research"
     ],
     "stackTags": ["Adobe Photoshop", "Adobe Illustrator"],
+    "playlists": [
+      {
+        "hero": false,
+        "featuredToday": true
+      }
+    ],
     "pageAndLink": [
       {
         "page": "Movies",
