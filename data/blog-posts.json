@@ -13,7 +13,7 @@
     "publishedDate": "08/02/2022",
     "updatedDate": null,
     "adCopy": "Scrollmate: A Web App by James Murdock",
-    "tags": ["Books", "Apps", "Ideas", "Websites"],
+    "tags": ["Books", "Apps", "Ideas", "Websites", "Portfolio"],
     "skillTags": ["Development", "Web Development", "Design", "UX Design"],
     "stackTags": [
       "HTML",
@@ -31,16 +31,6 @@
       {
         "hero": false,
         "featuredToday": true
-      }
-    ],
-    "pageAndLink": [
-      {
-        "page": "Books",
-        "link": "www.JMDb.me/books"
-      },
-      {
-        "page": "Portfolio",
-        "link": "www.JMDb.me/portfolio"
       }
     ],
     "content": [
@@ -71,23 +61,13 @@
     "publishedDate": "2022-XX-XX",
     "updatedDate": null,
     "adCopy": "Hockey Superstars: Card Game Designed by James Murdock",
-    "tags": ["Games", "Card Games", "Ideas", "Sports", "Hockey"],
+    "tags": ["Games", "Card Games", "Ideas", "Sports", "Hockey", "Portfolio"],
     "skillTags": ["Design", "Graphic Design", "Game Design"],
     "stackTags": ["Affinity Designer"],
     "playlists": [
       {
         "hero": false,
         "featuredToday": true
-      }
-    ],
-    "pageAndLink": [
-      {
-        "page": "Sports",
-        "link": "www.JMDb.me/portfolio"
-      },
-      {
-        "page": "Portfolio",
-        "link": "www.JMDb.me/portfolio"
       }
     ],
     "content": ["<p className='paragraph'>James</p>"]
@@ -106,7 +86,7 @@
     "publishedDate": "2022-XX-XX",
     "updatedDate": null,
     "adCopy": "The Sold Soul of Edward Teach: written by James Murdock",
-    "tags": ["Books", "Stories", "Ideas", "History", "Fiction"],
+    "tags": ["Books", "Stories", "Ideas", "History", "Fiction", "Portfolio"],
     "skillTags": [
       "Creative Writing",
       "Storytelling",
@@ -120,16 +100,6 @@
       {
         "hero": false,
         "featuredToday": true
-      }
-    ],
-    "pageAndLink": [
-      {
-        "page": "Books",
-        "link": "www.JMDb.me/books"
-      },
-      {
-        "page": "Portfolio",
-        "link": "www.JMDb.me/portfolio"
       }
     ],
     "content": ["<p className='paragraph'>James</p>"]
@@ -148,7 +118,7 @@
     "publishedDate": "2022-XX-XX",
     "updatedDate": null,
     "adCopy": "Cinemetix on Instagram: All Original Movie Memes!",
-    "tags": ["Movies", "Instagram", "Memes", "Reels", "Fiction"],
+    "tags": ["Movies", "Instagram", "Memes", "Reels", "Fiction", "Portfolio"],
     "skillTags": [
       "Content Creation",
       "Image Editing",
@@ -167,16 +137,6 @@
         "featuredToday": true
       }
     ],
-    "pageAndLink": [
-      {
-        "page": "Movies",
-        "link": "www.JMDb.me/movies"
-      },
-      {
-        "page": "Portfolio",
-        "link": "www.JMDb.me/portfolio"
-      }
-    ],
     "content": ["<p className='paragraph'>James</p>"]
   },
   {
@@ -193,7 +153,7 @@
     "publishedDate": "2022-XX-XX",
     "updatedDate": null,
     "adCopy": "Geographic Design (Graphic Design) Co. by James Murdock",
-    "tags": ["Design", "Freelance", "Cartography", "Maps", "Fiction"],
+    "tags": ["Design", "Freelance", "Cartography", "Maps", "Portfolio"],
     "skillTags": [
       "Design",
       "Graphic Design",
@@ -208,16 +168,6 @@
       {
         "hero": false,
         "featuredToday": true
-      }
-    ],
-    "pageAndLink": [
-      {
-        "page": "Movies",
-        "link": "www.JMDb.me/movies"
-      },
-      {
-        "page": "Portfolio",
-        "link": "www.JMDb.me/portfolio"
       }
     ],
     "content": ["<p className='paragraph'>James</p>"]
@@ -236,7 +186,7 @@
     "publishedDate": "2022-XX-XX",
     "updatedDate": null,
     "adCopy": "Geographic Design (Graphic Design) Co. by James Murdock",
-    "tags": ["Travel", "Cuba", "GoPro", "Maps", "Fiction"],
+    "tags": ["Travel", "Cuba", "GoPro"],
     "skillTags": [
       "Design",
       "Graphic Design",
@@ -251,16 +201,6 @@
       {
         "hero": false,
         "featuredToday": true
-      }
-    ],
-    "pageAndLink": [
-      {
-        "page": "Movies",
-        "link": "www.JMDb.me/movies"
-      },
-      {
-        "page": "Portfolio",
-        "link": "www.JMDb.me/portfolio"
       }
     ],
     "content": ["<p className='paragraph'>James</p>"]
