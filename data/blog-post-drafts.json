@@ -1,0 +1,66 @@
+[
+  {
+    "id": "3",
+    "name": "the-sold-soul-of-edward-teach",
+    "selfLink": "/the-sold-soul-of-edward-teach",
+    "title": "The Sold Soul of Edward Teach",
+    "subtitle": "My Stab at Historical Fiction in the 1700s",
+    "tagline": "Piracy & the Trans-Atlantic Slave Trade",
+    "imgHero": "/images/forrest-gump-hero.jpg",
+    "imgPoster": "/images/forrest-gump-poster.jpg",
+    "icon": "FiAward",
+    "publishedDate": "2023-01-02T00:00:01",
+    "updatedDate": null,
+    "adCopy": "The Sold Soul of Edward Teach: written by James Murdock",
+    "tags": ["Books", "Stories", "Ideas", "History", "Fiction", "Portfolio"],
+    "skillTags": [
+      "Creative Writing",
+      "Storytelling",
+      "Researching",
+      "Historical Research",
+      "Geographical Research",
+      "Content Creation"
+    ],
+    "stackTags": ["Microsoft Office", "Microsoft Word"],
+    "playlists": [
+      {
+        "hero": false,
+        "featuredToday": true
+      }
+    ],
+    "content": ["<p className='paragraph'>James</p>"]
+  },
+
+  {
+    "id": "6",
+    "name": "Cuba Travel Video",
+    "selfLink": "/cuba-travel-video",
+    "title": "Cuban Vacation",
+    "subtitle": "Travel Video",
+    "tagline": "My experience with a GoPro in Cuba",
+    "imgHero": "/images/forrest-gump-hero.jpg",
+    "imgPoster": "/images/forrest-gump-poster.jpg",
+    "icon": "FiAward",
+    "publishedDate": "2023-01-02T00:00:01",
+    "updatedDate": null,
+    "adCopy": "Geographic Design (Graphic Design) Co. by James Murdock",
+    "tags": ["Travel", "Cuba", "GoPro"],
+    "skillTags": [
+      "Design",
+      "Graphic Design",
+      "Image Editing",
+      "Illustration",
+      "Map Design",
+      "Researching",
+      "Geographical Research"
+    ],
+    "stackTags": ["Adobe Photoshop", "Adobe Illustrator"],
+    "playlists": [
+      {
+        "hero": false,
+        "featuredToday": true
+      }
+    ],
+    "content": ["<p className='paragraph'>James</p>"]
+  }
+]

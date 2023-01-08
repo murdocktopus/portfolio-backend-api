@@ -2,15 +2,14 @@
   {
     "id": "1",
     "name": "scrollmate",
-    "selfLink": "www.JMDb.me/blog-post/scrollmate",
+    "selfLink": "/scrollmate",
     "title": "Scrollmate",
-    "subtitle": "BrainStation Capstone Project",
+    "subtitle": "My Bootcamp Capstone Project",
     "tagline": "The Web App for discussing books!",
     "imgHero": "/images/scrollmate-hero.png",
     "imgPoster": "/images/scrollmate-poster.png",
-    "icon": "FiAward",
-    "writtenDate": "2022-08-02",
-    "publishedDate": "08/02/2022",
+    "icon": "FiBook",
+    "publishedDate": "2023-01-01",
     "updatedDate": null,
     "adCopy": "Scrollmate: A Web App by James Murdock",
     "tags": ["Books", "Apps", "Ideas", "Websites", "Portfolio"],
@@ -27,12 +26,8 @@
       "React",
       "Figma"
     ],
-    "playlists": [
-      {
-        "hero": false,
-        "featuredToday": true
-      }
-    ],
+    "hero": 1,
+    "featured": 0,
     "content": [
       "<p className='post-content__p post-content__p--first-letter' >Scrollmate is an original web app that I developed for my web dev program's final project. In the diploma that I attended at BrainStation, I spent 3 months (working very hard, with not a lot of sleep), learning to code HTML, CSS, JavaScript, Git, Node, React, Sass, Express, MySQL, Document Object Model (DOM) APIs, Web APIs, User Authentication, OAuth, Heroku and Jest. We also learned a ton about the industry (and working and networking in it)! In the last 2 weeks at BrainStation, we spent a lot of our time applying the concepts we had learned throughout the program, in the highly anticipated Capstone Project work weeks.</p>",
       "<p className='post-content__p' >Our Capstone Project required a lot of individual conception, so we didn't have many complex deliverables like the other projects we'd completed up to that point. That meant it was more up to us to come up with our own criteria for the project, which was very exciting. Still, I knew that would also make it tough to nail down a manageable idea, thinking of all the possibilities we had been given by our instructors and the short amount of time we had to develop our idea.</p>",
@@ -49,73 +44,50 @@
   },
   {
     "id": "2",
-    "name": "hockey-superstars",
-    "selfLink": "www.JMDb.me/blog-post/hockey-superstars",
-    "title": "Hockey Superstars",
+    "name": "hockey-allstars",
+    "selfLink": "/hockey-allstars",
+    "title": "Hockey Allstars",
     "subtitle": "The (Drinking) Card Game",
     "tagline": "It's a puck-in good time!",
     "imgHero": "/images/forrest-gump-hero.jpg",
     "imgPoster": "/images/forrest-gump-poster.jpg",
     "icon": "FiAward",
-    "writtenDate": "2022-08-XX",
-    "publishedDate": "2022-XX-XX",
+    "publishedDate": "2023-01-01",
     "updatedDate": null,
-    "adCopy": "Hockey Superstars: Card Game Designed by James Murdock",
+    "adCopy": "Hockey Allstars: Card Game Designed by James Murdock",
     "tags": ["Games", "Card Games", "Ideas", "Sports", "Hockey", "Portfolio"],
     "skillTags": ["Design", "Graphic Design", "Game Design"],
     "stackTags": ["Affinity Designer"],
-    "playlists": [
-      {
-        "hero": false,
-        "featuredToday": true
-      }
-    ],
-    "content": ["<p className='paragraph'>James</p>"]
+    "hero": 2,
+    "featured": 0,
+
+    "content": [
+      "<p className='post-content__p post-content__p--first-letter' >One night on a friend's cabin trip, Sami and Clinton, asked if my other friends and I wanted to play a (drinking) card game, with the simple name: HOCKEY. None of us knew about it, but as a fan of the sport, I thought I should probably learn to play the &#34;official&#34; drinking game.  So, they taught us the game and it was easy to learn and tons of fun! I was eventually inspired by this game to create a custom playing deck, with some added dynamics, to make the card game more unique, complete, and artistically geared towards NHL fans. But before I show you the version I created, let me first explain the original game.</p>",
+      "<p className='post-content__p' >HOCKEY Rules:</p>",
+      "<p className='post-content__p' >Divide into teams (HOCKEY must be played with an even number) and sit in a circle so that you are sitting between 2 players from the other team. Then, using a regular 52-card deck, shuffle and deal 5 cards to each player. The remaining deck of cards then becomes the draw pile that you put in the middle.</p>",
+      "<p className='post-content__p' >Hockey is played in a clockwise order but to determine who goes first, the game and all its 3 periods, start with a &#34;face-off,&#34; which requires a volunteer to quickly flip the card off the top of the draw pile to face upward, exposing the card number, while creating a new burn pile, and immediately permitting anyone to play their first card. Basically, after the initial card flip, whoever goes first, is first. The continuous goal is to play a card that matches (numbers with) the card on top of the burn pile. Any team that does makes a match, gains possession of the puck (we like to use a bottle cap as the puck) and if a team matches cards again while they have possession of the puck, they score a goal.</p>",
+      "<p className='post-content__p' >So if the person to your right plays a Jack, and you have a Jack, you're golden! But if you don't have a matching card, you must still play a card, and draw another from the draw pile. *It is very important that you quickly draw a card after each card that you play (by always keeping your deck at five cards) because if you forget to draw a card before the player after you, you're no longer permitted to draw a replacement card for the rest of the period (the end of the draw pile); you'll be considered shorthanded. </p>",
+      "<p className='post-content__p' >Now for where the scoring (and drinking) comes in. At the beginning of the game, everyone picks a &#34;drinking buddy&#34; from the other team. Every time one team (gains possession and) scores a goal, they can add one point to their team's score. The team that was scored on must start sipping their drink, and their &#34;drinking buddy,&#34; will tell them when to stop. Be kind to your &#34;drinking buddy&#34; because they will determine how much of your drink you must finish when your team gets scored on! When the draw pile runs out, it's the end of a period, and after 3 periods, the team with the highest score wins and the losers must finish their drinks. If it is a tie at the end, you play a sudden-death (next goal wins) overtime period to determine the winner.</p>",
+      "<p className='post-content__p' >So that is how to play the original game. We had so much fun playing the first time that we ended up playing it much more. One day, I decided that this game would be good to convert to its own custom card game, primarily because the card numbers are meant to represent hockey players, who already have jersey numbers in real life! I started to think of how many groups of 4 famous hockey players I could think of that share the same jersey number, in order to create a new playing card deck with the same distribution of numerical values as a regular deck of cards.",
+      "<p className='post-content__p' >I spent a tremendous amount of time designing all the cards but I had a lot of fun doing it and it felt like an exercise in graphic design. The process required me to pick hockey players, based on their jersey numbers, but also based on their popularity, their team, and even the era in which they played in the NHL so that there's a little something for everyone in the deck. It also makes the deck more colourful and visually diverse! Once I had my roster, I used Affinity Designer to replicate the player's most iconic jersey, in 'playing card' form. ",
+      "<p className='post-content__p' >Check out the images of the designs that I made for the game below!</p>",
+      "<p className='post-content__p' >**IMAGES**",
+      "<p className='post-content__p' >Now that you can see just how many jersey designs I transposed into card form, I hope it put perspective into how much effort I put into this project. Once the designs were finished, I got them printed on card stock at Staples, which cost me an arm and a leg even though I cut them myself, which also took hours. But the cost and all the work and time were well worth it in the end, as I feel like I really learned a lot about Affinity Designer, the NHL (past and present), many design principles, some game logic (experimenting with number distribution and adding cards with new/different functions), printing and other soft skills.</p>",
+      "<p className='post-content__p' >Thank you for your interest, and for reading!",
+      "<p className='paragraph'>James</p>"
+    ]
   },
   {
     "id": "3",
-    "name": "the-sold-soul-of-edward-teach",
-    "selfLink": "www.JMDb.me/blog-post/the-sold-soul-of-edward-teach",
-    "title": "The Sold Soul of Edward Teach",
-    "subtitle": "My Stab at Historical Fiction in the 1700s",
-    "tagline": "Piracy & the Trans-Atlantic Slave Trade",
-    "imgHero": "/images/forrest-gump-hero.jpg",
-    "imgPoster": "/images/forrest-gump-poster.jpg",
-    "icon": "FiAward",
-    "writtenDate": "2022-08-XX",
-    "publishedDate": "2022-XX-XX",
-    "updatedDate": null,
-    "adCopy": "The Sold Soul of Edward Teach: written by James Murdock",
-    "tags": ["Books", "Stories", "Ideas", "History", "Fiction", "Portfolio"],
-    "skillTags": [
-      "Creative Writing",
-      "Storytelling",
-      "Researching",
-      "Historical Research",
-      "Geographical Research",
-      "Content Creation"
-    ],
-    "stackTags": ["Microsoft Office", "Microsoft Word"],
-    "playlists": [
-      {
-        "hero": false,
-        "featuredToday": true
-      }
-    ],
-    "content": ["<p className='paragraph'>James</p>"]
-  },
-  {
-    "id": "4",
     "name": "cinememetix",
-    "selfLink": "www.JMDb.me/blog-post/cinememetix",
+    "selfLink": "/cinememetix",
     "title": "Cinememetix",
     "subtitle": " on Instagram!",
     "tagline": "All original movie memes and reels",
     "imgHero": "/images/forrest-gump-hero.jpg",
     "imgPoster": "/images/forrest-gump-poster.jpg",
     "icon": "FiAward",
-    "writtenDate": "2022-08-XX",
-    "publishedDate": "2022-XX-XX",
+    "publishedDate": "2023-01-01",
     "updatedDate": null,
     "adCopy": "Cinemetix on Instagram: All Original Movie Memes!",
     "tags": ["Movies", "Instagram", "Memes", "Reels", "Fiction", "Portfolio"],
@@ -131,26 +103,34 @@
       "Adobe Premiere Pro",
       "Apple Final Cut Pro"
     ],
-    "playlists": [
-      {
-        "hero": false,
-        "featuredToday": true
-      }
-    ],
-    "content": ["<p className='paragraph'>James</p>"]
+    "hero": 3,
+    "featured": 0,
+    "content": [
+      "<p className='paragraph'>Cinimemetix is a hobby movie meme page that I created as an outlet for my enjoyment of making memes, and also for my love of movies. I've always enjoyed participating in witty situational humour and in today's increasingly digital world, internet memes are rising to the top tier of ways to do that.",
+      "<p className='paragraph'>While Cinememetix may be hard to pronounce, I am adamant about the name, and at this point, I think it's a great representation of my ability to adamantly defend bad ideas, jokes or memes if I believe they are creative or chaotic enough. So even though I often need to explain the name, I think there is really no cleaner way to summarize my niche; all it is is a combination of the words: cinema (movie), and memetics (memes); I also took the x from Netflix (because of the modern way we consume movies, and as you'll see, to add some brand flair).</p>",
+      "<p className='paragraph'>If you didn't already know, the word &#34;meme&#34; is short for &#34;memetics.&#34; I certainly can't explain it as well as Yuval Noah Hurrari does in Sapiens, but the reason the word &#34;memetics (meme)&#34; sounds so similar to &#34;genetics (gene),&#34; is because the words share a very major and important relevance...</p>",
+      "<p className='paragraph'>The term (from the Greek mimema, meaning “imitated”) was coined in 1976 by evolutionary biologist and celebrated (by me) Athiest, Richard Dawkins in his work The Selfish Gene, as a copied or imitated unit of cultural information. So it does predate the beginning of the internet by about 7 years, but learning the word's original meaning, can actually make you wonder how there wasn't a word for it sooner; Harari states that by Dawkins' description, even cave paintings are great visual examples of the memes of our past. I have been told 4that my sense of humour borders on that of a caveman, so it was nice to connect the dots!</p>",
+      "<p className='paragraph'>Memes take many forms within a culture, such as ideas, skills, behaviours, phrases, or styles. The replication and transmission of a meme occur when its information is copied by another person. The process is carried out mainly by verbal, written, visual, or electronic communication in conversations, books, television, or the internet. Those memes that are most successful in being copied and transmitted become the most prevalent within a culture. Dawkins described memes as &#34;selfish genes&#34; because while the genetic transmission is restricted by the conception of its creators, memetic transmission occurs independently of its creator as if the &#34;selfish gene&#34; is in control of its own reproduction, serving its own ends. Unlike genes, they have the ability to evolve and mutate at random, undergoing natural selection, with or without impacts on human reproduction and survival.</p>",
+      "<p className='paragraph'>To quote Britannica, &#34;The exploration of relationships between cultural evolution and imitation has led to intriguing theories about memes. Various ideas have emerged about the nature of memes, such as whether they are beneficial, neutral, or harmful. Memes may be interpreted as being inherently harmful, since, according to some scholars, memes are parasites or viruses of the mind; once assimilated into the human mind, their chief purpose becomes their own replication, with humans having little or no control over them.&#34; Dang, these plebs are bleak, but I think they might view memes as an incomplete way of passing copies of a once-detailed, original thought.</p>",
+      "<p className='paragraph'> &#34;Some memes, however, are benign or beneficial but can become dangerous because, after they have been seeded in the human mind, they lend themselves to being misused or abused. For example, although memes associated with religious or political ideas may benefit the people who carry them, those same memes, when imposed on people whose religious or political memes are different, may cause harm, such as through the loss of religious traditions or social or political stability. Memes associated with religious or political ideas may also be abused, as in the case of religious cults or extremist groups, which can result in the death of individuals.&#34; Think digital, ideological consumption, combined with society's current price on our attention, turning almost any user into an extremist on what they're consuming. &#34;Beneficial memes, on the other hand, could include those that promote human health and survival, such as memes associated with [fitness and] hygiene.&#34;</p>",
+      "<p className='paragraph'>I wonder if Dawkins predicted that in true memetic fashion, his encyclopedic term, would so quickly mutate into a genericization for &#34;shared internet images with funny text.&#34; But I tend to prefer the more modern, light and possibly ignorant use of the term. Also, when prolific evolutionary biologists conclude that things we've been doing since we were cavemen are beyond our control, I tend to accept it and embrace the fact that some things can't be controlled, and there is some beauty to that. </p>",
+      "<p className='paragraph'>My love for creating memes actually started in the office. I find that the experiences shared by coworkers are perfect for situational humour, and inside jokes to have some fun at work. While I have perhaps the most fun creating really specific memes for the people I spend the most time with, I wanted to find a way to connect to a larger audience (not just like 5 people), so I chose the rather broad domain, of creating movie memes. Cinemametics is the term I made for the process of using a popular movie clip or quote and purposely taking it out of context, to be seen in a different, hopefully, humorous way, to be shared, replicated and mutated to society's desire; almost literally: &#34;cinema memetics.&#34;</p>",
+      "<p className='paragraph'>Please follow my Cinemetix socials if you enjoy chaotic movie memes. I am hoping to slowly expand this idea into the realm of designing and selling my meme merchandise to movie fans that want the flair. I will certainly update this post for any advancements in this project. </p>",
+      "<p className='paragraph'>Thank you for reading!</p>",
+      "<p className='paragraph'>James</p>"
+    ]
   },
   {
-    "id": "5",
-    "name": "Geographic Design",
-    "selfLink": "www.JMDb.me/blog-post/geographic-design",
+    "id": "4",
+    "name": "geographicdesign",
+    "selfLink": "/geographic-design",
     "title": "Geographic Design",
     "subtitle": "",
     "tagline": "My Freelance Graphic Design Endeavour",
     "imgHero": "/images/forrest-gump-hero.jpg",
     "imgPoster": "/images/forrest-gump-poster.jpg",
     "icon": "FiAward",
-    "writtenDate": "2022-08-XX",
-    "publishedDate": "2022-XX-XX",
+    "publishedDate": "2023-01-02T00:00:01",
     "updatedDate": null,
     "adCopy": "Geographic Design (Graphic Design) Co. by James Murdock",
     "tags": ["Design", "Freelance", "Cartography", "Maps", "Portfolio"],
@@ -164,45 +144,8 @@
       "Geographical Research"
     ],
     "stackTags": ["Adobe Photoshop", "Adobe Illustrator"],
-    "playlists": [
-      {
-        "hero": false,
-        "featuredToday": true
-      }
-    ],
-    "content": ["<p className='paragraph'>James</p>"]
-  },
-  {
-    "id": "6",
-    "name": "Cuba Travel Video",
-    "selfLink": "www.JMDb.me/blog-post/cuba-travel-video",
-    "title": "Cuban Vacation",
-    "subtitle": "Travel Video",
-    "tagline": "My experience with a GoPro in Cuba",
-    "imgHero": "/images/forrest-gump-hero.jpg",
-    "imgPoster": "/images/forrest-gump-poster.jpg",
-    "icon": "FiAward",
-    "writtenDate": "2022-08-XX",
-    "publishedDate": "2022-XX-XX",
-    "updatedDate": null,
-    "adCopy": "Geographic Design (Graphic Design) Co. by James Murdock",
-    "tags": ["Travel", "Cuba", "GoPro"],
-    "skillTags": [
-      "Design",
-      "Graphic Design",
-      "Image Editing",
-      "Illustration",
-      "Map Design",
-      "Researching",
-      "Geographical Research"
-    ],
-    "stackTags": ["Adobe Photoshop", "Adobe Illustrator"],
-    "playlists": [
-      {
-        "hero": false,
-        "featuredToday": true
-      }
-    ],
+    "hero": 4,
+    "featured": 0,
     "content": ["<p className='paragraph'>James</p>"]
   }
 ]
